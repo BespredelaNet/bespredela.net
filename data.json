@@ -1,0 +1,23 @@
+{
+  "version": "1.0",
+  "siteName": "Щит Пассажира",
+  "tips": [
+    {
+      "id": 1,
+      "title": "Требование документов",
+      "essence": "Контролёр обязан предъявить удостоверение в развёрнутом виде",
+      "law": "Конституция РФ, ст. 24 ч. 1",
+      "action": "Требую предъявить служебное удостоверение в развёрнутом виде"
+    }
+  ],
+  "categories": [
+    { "id": "metro", "name": "Метро", "icon": "🚇" },
+    { "id": "trains", "name": "Электрички", "icon": "🚆" },
+    { "id": "ground", "name": "Наземный", "icon": "🚌" }
+  ],
+  "settings": {
+    "registrationRequired": true,
+    "maintenanceMode": false,
+    "welcomeMessage": "Добро пожаловать в Щит!"
+  }
+}
